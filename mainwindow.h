@@ -17,5 +17,7 @@ public:
 
 private:
     Ui::MainWindow *ui;
+
+    long difference_cents;
 };
 #endif // MAINWINDOW_H
