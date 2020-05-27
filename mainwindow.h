@@ -15,6 +15,11 @@ public:
     MainWindow( QWidget *parent = nullptr );
     ~MainWindow();
 
+private slots:
+    void ui_update_difference();
+    void ui_update_todays_date();
+    void ui_update_todays_day();
+
 private:
     Ui::MainWindow *ui;
 

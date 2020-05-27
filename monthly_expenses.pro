@@ -22,10 +22,12 @@ INCLUDEPATH += "$$PWD/sqlite3/inlcude"
 
 
 SOURCES += \
+    item.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
+    item.h \
     mainwindow.h
 
 FORMS += \
