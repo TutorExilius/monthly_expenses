@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>821</width>
-    <height>660</height>
+    <width>708</width>
+    <height>363</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -155,7 +155,7 @@
                  </widget>
                 </item>
                 <item>
-                 <widget class="QLineEdit" name="lineEdit">
+                 <widget class="QLineEdit" name="lineEdit_item_input">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -176,7 +176,7 @@
                  </widget>
                 </item>
                 <item>
-                 <widget class="QLineEdit" name="lineEdit_2">
+                 <widget class="QLineEdit" name="lineEdit_item_input_amount">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -232,7 +232,7 @@
              </layout>
             </item>
             <item>
-             <widget class="QListWidget" name="listWidget"/>
+             <widget class="QListWidget" name="listWidget_inputs"/>
             </item>
             <item>
              <layout class="QHBoxLayout" name="horizontalLayout_10">
@@ -342,7 +342,7 @@
                  </widget>
                 </item>
                 <item>
-                 <widget class="QLineEdit" name="lineEdit_3">
+                 <widget class="QLineEdit" name="lineEdit_item_output">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -363,7 +363,7 @@
                  </widget>
                 </item>
                 <item>
-                 <widget class="QLineEdit" name="lineEdit_4">
+                 <widget class="QLineEdit" name="lineEdit_item_output_amount">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -419,7 +419,7 @@
              </layout>
             </item>
             <item>
-             <widget class="QListWidget" name="listWidget_2"/>
+             <widget class="QListWidget" name="listWidget_outputs"/>
             </item>
             <item>
              <layout class="QHBoxLayout" name="horizontalLayout_11">
@@ -567,7 +567,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>821</width>
+     <width>708</width>
      <height>21</height>
     </rect>
    </property>
